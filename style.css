@@ -19,3 +19,22 @@ section {
 p {
     max-width: 500px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+    
+    section {
+      flex-direction: column-reverse;
+    }
+    
+    iframe {
+        width: 420px;
+    }
+  }
